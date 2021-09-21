@@ -1,5 +1,4 @@
 from flask import Flask, request, render_template
-from flask.wrappers import Response
 from db import init_db, db
 from werkzeug.utils import secure_filename
 from models import Img
